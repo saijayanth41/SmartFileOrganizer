@@ -159,27 +159,3 @@ dotnet publish -c Release -r osx-x64 --self-contained -o ./publish
 | `0` | Success — all files processed |
 | `1` | Invalid arguments or directory not found |
 | `2` | One or more files failed to move |
-
----
-
-## 🛣️ Future Enhancements
-
-- [ ] GUI / Desktop UI (Avalonia or MAUI)
-- [ ] Undo / Redo support
-- [ ] Detailed log file output
-- [ ] File filters (by size, date, name pattern)
-- [ ] Cloud sync (Dropbox, OneDrive, S3)
-- [ ] Custom category rules via JSON config
-- [ ] Watch mode — auto-organize on file drop
-- [ ] Unit & integration tests (xUnit)
-
----
-
-## 👤 Author
-
-**Sai Jayanth Rajamahendram**
-C# · .NET · DevOps · Cloud
-
----
-
-> Built with C# .NET 10 · March 2026
