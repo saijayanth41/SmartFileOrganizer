@@ -8,9 +8,8 @@ class Program
 {
     static int Main(string[] args)
     {
-        Console.WriteLine("╔══════════════════════════════╗");
-        Console.WriteLine("║     Smart File Organizer     ║");
-        Console.WriteLine("╚══════════════════════════════╝");
+        
+        Console.WriteLine("    Smart File Organizer     ");
         Console.WriteLine();
 
         var config = ParseArguments(args);
